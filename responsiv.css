@@ -1,0 +1,403 @@
+/* @media only screen and (max-width: 1024px) */
+
+@media only screen and (max-width: 1024px) {
+
+    .nav li {
+        margin: 7px;
+    }
+
+    .oadd {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 24px;
+    }
+
+    .totle h2 a {
+        font-size: 15px;
+    }
+
+    .totle p {
+        font-size: 16px;
+    }
+
+    .totle {
+        margin: 0px 0px;
+    }
+
+    .service {
+        background-color: #F5F6F6;
+        margin-top: 30px;
+    }
+
+    /* work area */
+
+    .work-team {
+        flex-direction: column;
+    }
+
+    .worke-img {
+        width: 86vw;
+        margin: 90px 60px 0px 0px;
+    }
+
+    .worke-con li {
+        margin-right: 11px;
+    }
+
+    /* counting area */
+
+    .omg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conting {
+        background: radial-gradient(black, transparent);
+    }
+
+    .coun {
+        float: none;
+        width: 100%;
+        margin: 60px 0;
+        border: 2px solid chartreuse;
+        padding: 36px 0px;
+        border-radius: 123px;
+    }
+
+    /* from us */
+
+    .bottom p {
+        font-size: 14px;
+        text-align: revert;
+        margin-right: 5px;
+    }
+
+    .bottom h3 {
+        font-size: 15.7px;
+    }
+
+    /* leates idea */
+    
+    .idea-img {
+        width: 40vw;
+        height: 207vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .idea-con {
+        position: relative;
+        float: right;
+        width: 60%;
+        background: #222;
+    }
+
+    .idea-con2 {
+        padding: 70px 10px 23px 10px;
+    }
+
+    /* our best project */
+
+    .best-project .img-con .com .conn {
+        padding-bottom: 0px;
+        padding-left: 9px;
+        width: 99%;
+    }
+    .best-project .img-con .com .conn h2 {
+        font-size: 16px;
+    }
+    .best-project .img-con .com:hover a {
+        margin-bottom: 18px;
+    }
+    .best-project .img-con .com:hover h2 {
+        margin-bottom: 18px;
+    }
+
+    /* pooter area */
+
+    .footerSbox {
+        width: 165px;
+    }
+    .footerSbox .dates-info ul {
+        flex-direction: column;
+    }
+    .footerSbox .dates .f {
+        margin: 0px 0px 73px 0px;
+    }
+    .copy{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .copy-low p {
+        text-align: center;
+        padding: 5px;
+    }
+    .copy-loww ul {
+        justify-content:center;
+    }
+}
+
+/* @media only screen and (max-width: 768px)  */
+
+@media only screen and (max-width: 768px) {
+    .t-raper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .phone {
+        flex-grow: 1;
+        padding: 13.5px 0px 12.5px 0px;
+        border-left: none;
+        margin: auto;
+    }
+
+    .email {
+        flex-grow: 2;
+        padding: 13.5px 0px 12.5px 0px;
+        border-left: none;
+        margin: auto;
+    }
+
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .m-raoer nav ul li a {
+        font-size: 16px;
+        color: #999;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .m-raoer ul {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background-color: #2c3e50;
+        top: 200px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .m-raoer nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .m-raoer nav ul li a:hover,
+    .m-raoer nav ul li a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    .m-raoer #check:checked~ul {
+        left: 0;
+    }
+
+    /* slider area */
+
+    .slid-cn h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .slid-cn p {
+        width: 100%;
+    }
+
+    .slid-cn>button,
+    .but {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .bac-3 .redio {
+        display: none;
+    }
+    /* from-us */
+
+    .from-img {
+        width: 41vw;
+    }
+
+    .from-us-wrap {
+        grid-template-columns: auto auto;
+    }
+    .from-us .bottom {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .from-us .bottom p {
+        margin-right: 11px;
+        text-align: center;
+    }
+    .bottom h3 {
+        text-align: center;
+    }
+
+    /* leates idea */
+
+    .idea-img {
+        width: 50vw;
+        height: 104vh;
+    }
+    .idea-con {
+        width: 100%;
+    }
+    .idea-img {
+        display: none;
+    }
+
+    /* our trem */
+
+    .gg {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .gg .img-cin .img-raper img {
+        width: 42vw;
+    }
+
+    /* our best projcet */
+
+    .img-con {
+        grid-template-columns: auto auto;
+    }
+    .best-project .img-con .com .conn h2 {
+        font-size: 15px;
+    }
+    
+    /* contuc from */
+
+    .mraper {
+        flex-direction: column;
+    }
+    .singleboxx {
+        margin: auto;
+    }
+
+    /* footer area */
+
+    .footer-refer {
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+}
+
+/* @media only screen and (max-width: 425px) */
+
+@media only screen and (max-width: 425px) {
+
+    .service {
+        margin-top: 0px;
+    }
+
+    .oadd {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    /* work area */
+
+    .ul-repar {
+        flex-direction: column;
+    }
+
+    /* counting area */
+
+    .omg h3 {
+        font-size: 17px;
+    }
+
+    .omg h2 {
+        font-size: 56px;
+    }
+
+    .coun {
+        border-radius: 13px;
+        margin: 35px 0;
+    }
+
+    /* from-us */
+
+    .from-img {
+        width: 86vw;
+    }
+    .from-us-wrap {
+        grid-template-columns: auto;
+    }
+    .from-us .bottom p {
+        font-size: 18px;
+    }
+    .bottom h3 {
+        font-size: 20.7px;
+    }
+
+    /* Pricing Table */
+
+    .price-con {
+        width: 100%;
+    }
+
+    /* latest idea */
+
+    .idea-con2 {
+        padding: 10px;
+    }
+
+    .footerr {
+        margin-left: 50px !important;
+    }
+
+    .idea-con2 .footerr .topp .icon,.idea-con2 .footerr .bootmm .icon {
+        float: left;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .idea-con2 .footerr .bootmm {
+        padding-top: 0px;
+    }
+
+    /* our trem */
+
+    .gg {
+        grid-template-columns: auto;
+    }
+    .gg .img-cin .img-raper img {
+        width: 85vw;
+    }
+
+    .l-s-nRaper .singlebox .n-img,.con-r {
+        width: 100%;
+    }
+
+    /* our best project */
+
+    .img-con {
+        grid-template-columns: auto;
+    }
+
+    /* footer area */
+
+    .footer-refer {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .footerSbox {
+        margin: 17px 10px;
+    }
+}
